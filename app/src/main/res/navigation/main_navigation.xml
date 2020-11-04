@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/nav_schedule">
+
+    <fragment
+        android:id="@+id/nav_course"
+        android:name="com.example.handsonfirebase.CourseFragment"
+        android:label="fragment_course"
+        tools:layout="@layout/fragment_course" >
+        <action
+            android:id="@+id/action_courseFragment_to_userFragment"
+            app:destination="@id/nav_profile" />
+        <action
+            android:id="@+id/action_courseFragment_to_scheduleFragment"
+            app:destination="@id/nav_schedule" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_schedule"
+        android:name="com.example.handsonfirebase.ScheduleFragment"
+        android:label="fragment_schedule"
+        tools:layout="@layout/fragment_schedule" >
+        <action
+            android:id="@+id/action_scheduleFragment_to_userFragment"
+            app:destination="@id/nav_profile" />
+        <action
+            android:id="@+id/action_scheduleFragment_to_courseFragment"
+            app:destination="@id/nav_course" />
+        <action
+            android:id="@+id/action_nav_schedule_to_nav_user"
+            app:destination="@id/nav_profile" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.handsonfirebase.UserFragment"
+        android:label="fragment_user"
+        tools:layout="@layout/fragment_user" >
+        <action
+            android:id="@+id/action_userFragment_to_scheduleFragment"
+            app:destination="@id/nav_schedule" />
+        <action
+            android:id="@+id/action_userFragment_to_courseFragment"
+            app:destination="@id/nav_course" />
+    </fragment>
+</navigation>

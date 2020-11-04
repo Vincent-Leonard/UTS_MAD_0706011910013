@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "320679427783",
+    "firebase_url": "https://handsonfirebase-db061.firebaseio.com",
+    "project_id": "handsonfirebase-db061",
+    "storage_bucket": "handsonfirebase-db061.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320679427783:android:ac23f2188986c07ca848e2",
+        "android_client_info": {
+          "package_name": "com.example.handsonfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320679427783-55mobknmqk5cnnon37fj7cksekh6qo11.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.handsonfirebase",
+            "certificate_hash": "5b5371b20886328d3b7b60aaf8a3243a61200c93"
+          }
+        },
+        {
+          "client_id": "320679427783-2vbr6hq6miqo3vedt0aq4oubovtsg25p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQSMLBogopqJ-WtZXF5gBeKz-RKilhBCA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320679427783-2vbr6hq6miqo3vedt0aq4oubovtsg25p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

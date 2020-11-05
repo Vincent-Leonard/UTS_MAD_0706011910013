@@ -10,6 +10,7 @@
         android:layout_height="238dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
+        app:cardCornerRadius="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,8 +24,9 @@
                 android:id="@+id/view13"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
-                android:background="#03A9F4"
+                android:background="#2196F3"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -132,29 +134,20 @@
 
             <ImageView
                 android:id="@+id/lbl_course_edit"
-                android:layout_width="66dp"
+                android:layout_width="194dp"
                 android:layout_height="34dp"
-                android:layout_marginEnd="16dp"
-                android:layout_marginBottom="4dp"
                 android:background="@drawable/button"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView25"
-                app:layout_constraintVertical_bias="0.813"
                 app:srcCompat="@drawable/ic_baseline_edit_24" />
 
             <ImageView
                 android:id="@+id/lbl_course_delete"
-                android:layout_width="66dp"
+                android:layout_width="194dp"
                 android:layout_height="34dp"
-                android:layout_marginBottom="4dp"
                 android:background="@drawable/button_delete"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/lbl_course_edit"
-                app:layout_constraintHorizontal_bias="0.933"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView25"
-                app:layout_constraintVertical_bias="0.813"
                 app:srcCompat="@drawable/ic_baseline_delete_24" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>

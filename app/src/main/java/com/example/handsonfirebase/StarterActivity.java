@@ -29,7 +29,6 @@ public class StarterActivity extends AppCompatActivity {
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(StarterActivity.this);
                     startActivity(intent, options.toBundle());
-                    finish();
                 }
             });
 
@@ -42,7 +41,6 @@ public class StarterActivity extends AppCompatActivity {
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(StarterActivity.this);
                     startActivity(intent, options.toBundle());
-                    finish();
                 }
             });
 
@@ -55,7 +53,6 @@ public class StarterActivity extends AppCompatActivity {
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(StarterActivity.this);
                     startActivity(intent, options.toBundle());
-                    finish();
                 }
             });
 
@@ -68,7 +65,6 @@ public class StarterActivity extends AppCompatActivity {
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(StarterActivity.this);
                     startActivity(intent, options.toBundle());
-                    finish();
                 }
             });
         }
